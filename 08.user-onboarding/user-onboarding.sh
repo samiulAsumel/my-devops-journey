@@ -16,7 +16,7 @@ NC='\033[0m' # No Color
 # Check if running as root
 if [[ $EUID -ne 0 ]]; then
    echo -e "${RED}This script must be run as root${NC}" 
-   echo "Usage: sudo  ./user-onboarding.sh"
+   echo "Usage: sudo ./user-onboarding.sh"
    exit 1
 fi
 
